@@ -1,0 +1,195 @@
+@media (min-width: 720px) {
+
+body, html {
+  font-size: 18px;
+}
+
+.header_left {
+  text-align: left;
+  padding: 63px 0 164px 110px;
+}
+
+.head_tagline {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  max-width: 50%;
+}
+
+.head_logo {
+  margin-bottom: 133px;
+}
+
+.head_about {
+  max-width: 40%;
+  font-size: 1.125rem;
+}
+
+.head_buttons {
+  justify-content: flex-start;
+}
+
+.left_button {
+  margin-right: 36px;
+}
+
+.header {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-image: url(./images/background.png);
+  background-size: 68%;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  min-width: 100%;
+}
+
+.main_text_block {
+  text-align: left;
+  width: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.main_matches {
+  min-width: 50%;
+  background: linear-gradient(to left, #FFFFFF 5.5%,
+    rgba(255, 255, 255, 0) 67.14%,
+    rgba(255, 255, 255, 0.5)), url(./images/cristiano.png);
+}
+
+.match_time {
+  margin-bottom: 12px;
+}
+
+.match_teams {
+  margin-bottom: 13.5px;
+}
+
+.get_right_block {
+  background: none;
+  min-width: 50%;
+}
+
+.get_started {
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-image: url(./images/background1.png);
+  padding-bottom: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.bell_circle {
+  left: 10px;
+  top: 10px;
+}
+
+.large {
+  display: block;
+}
+
+.small {
+  display: none;
+}
+
+.get_text_block {
+  align-items: center;
+}
+
+.cart_circle {
+  top: 370px;
+}
+
+.cart {
+  left: 40px;
+  top: 40px;
+}
+
+.bell {
+  left: 39px;
+  top: 30px;
+}
+
+.bell_circle {
+ top: 50px;
+}
+
+.features {
+  background-image: url(./images/background_blue.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.f_p, .features_title {
+  color: white;
+}
+
+.f_box {
+  max-width: 311px;
+  text-align: left;
+}
+
+.icon {
+  fill: #fff;
+}
+
+.features_blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.slider_box, .slide_left,
+.slider_box_l, .slider_box_r {
+  display: block;
+}
+
+.point {
+  display: contents;
+}
+
+.slider_block {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.slider_block:after {
+	content: "";
+	width: 100%;
+	height: 90%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: transparent;
+	background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+}
+
+footer {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.networks {
+  order: 1;
+  margin: 0;
+}
+
+.get_up_right {
+  text-align: left;
+}
+
+.get_up_buttons {
+  justify-content: flex-start;
+}
+
+.get_up {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+}
