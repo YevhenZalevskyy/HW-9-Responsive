@@ -401,7 +401,7 @@ footer {
   color: white;
   display: flex;
   flex-direction: column;
-  padding: 45px 25px;
+  padding: 45px 10px;
 }
 
 .networks {
@@ -423,9 +423,14 @@ footer {
   text-align: center;
 }
 
+.get_up_left {
+  max-width: 100vw;
+}
+
 .get_up_buttons {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .get_up_about {

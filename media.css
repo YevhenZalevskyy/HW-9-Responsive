@@ -1,3 +1,10 @@
+@media  (min-width: 1440px){
+  .features {
+padding: 0px 60px;
+  }
+
+}
+
 @media (min-width: 720px) {
 
 body, html {
@@ -121,6 +128,7 @@ body, html {
   background-image: url(./images/background_blue.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .f_p, .features_title {
@@ -178,18 +186,37 @@ footer {
   margin: 0;
 }
 
+.foot_nav {
+
+}
+
 .get_up_right {
   text-align: left;
+  max-width: 50%;
+}
+
+.get_up_left {
+   max-width: 50%;
+}
+
+.get_up_about {
+   max-width: 535px;
+}
+
+.end {
+  width: 100%;
 }
 
 .get_up_buttons {
   justify-content: flex-start;
+  flex-wrap: nowrap;
 }
 
 .get_up {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  justify-content: space-between;
 }
 
 }
